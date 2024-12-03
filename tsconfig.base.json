@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@./backend-lib": ["libs/backend-lib/src/index.ts"],
+      "@./my-new-lib": ["libs/my-new-lib/src/index.ts"],
+      "@./my-new-lib/server": ["libs/my-new-lib/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
